@@ -1,0 +1,24 @@
+{
+    "name": "alexcrisbrito/culusms-php",
+    "description": "Unofficial SDK for CuluSMS API",
+    "version": "v1.0",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Brito",
+            "email": "abrito@nextgenit-mz.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "giggsey/libphonenumber-for-php": "^8.12",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alexcrisbrito\\culusms\\": "./src"
+        }
+    }
+}
